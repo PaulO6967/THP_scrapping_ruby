@@ -1,9 +1,9 @@
+# scrapping data for the coinmarket website
 require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
 
 PAGE_URL = "https://coinmarketcap.com/all/views/all/"
-PAGE = Nokogiri::HTML(URI.open(PAGE_URL))
 
 def scraping_array
   page = Nokogiri::HTML(URI.open(PAGE_URL))

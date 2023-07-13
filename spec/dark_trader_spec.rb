@@ -1,4 +1,4 @@
-
+# test for the file dark_trader
 require_relative "../lib/dark_trader.rb"
 
 describe "the programme is working by returning an array of hash" do
